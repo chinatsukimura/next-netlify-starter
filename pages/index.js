@@ -6,6 +6,8 @@ import Service from '@components/Service'
 import UsersVoice from '@components/UsersVoice'
 import SideMenu from '@components/SideMenu'
 import React, { useState } from 'react';
+import {LinkCrewH3 } from "common"
+import Add_button from '@components/Add_button'
 
 export default function Home() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -30,6 +32,7 @@ export default function Home() {
           <Top />
           <Service />
           <UsersVoice />
+          <Add_button />
         </div>
       </main>
 
